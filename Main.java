@@ -92,8 +92,8 @@ class Main{
                 System.out.println("Bienvenido al modo batalla");
         System.out.println("Elije a a tu pokemon");
         System.out.println("1--Charmander");
-        System.out.println("2--Bulbasaor");
-        System.out.println("3--squartle");
+        System.out.println("2--Bulbasaur");
+        System.out.println("3--Squirtle");
         pokemon = entrada.nextInt();
         //Se escriben las caractristicas
 
