@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.*;
 import java.io.*;
 
-class Main{
+class Sesion4{
 
     public static void main(String[] args) throws IOException{
 
