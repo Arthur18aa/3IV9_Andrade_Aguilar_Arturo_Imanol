@@ -8,7 +8,7 @@ class Main{
     IOException{
 
         Scanner entrada = new Scanner(System.in);
-         int charmander, bulbasaur,squirtle, opcion;
+         int charmander, bulbasaur,squirtle, opcion, pokemon;
          int vida1 = 95;
          int fuerza1 = 65;
          int ataque1 = 45;
@@ -94,12 +94,10 @@ class Main{
         System.out.println("1--Charmander");
         System.out.println("2--Bulbasaor");
         System.out.println("3--squartle");
-        vida1 = entrada.nextInt();
-        vida2 = entrada.nextInt();
-        vida3 = entrada.nextInt();
+        pokemon = entrada.nextInt();
         //Se escriben las caractristicas
 
-        if (vida1 == 95){
+        if (pokemon == 1){
             System.out.println("Has elegido Charmander");
             System.out.println("Tu enemigo sera Bulbasaur");
             System.out.println("Batalla neutra");
@@ -114,7 +112,7 @@ class Main{
                 System.out.println("Bulbasaur esta cansado y ha sido derrotado");
             }
         }
-        if (vida2 == 110){
+        if (pokemon == 2){
             System.out.println("Has elegido Squirtle");
             System.out.println("Tu enemigo sera Charmander");
             System.out.println("Estas en ventaja");
@@ -128,7 +126,8 @@ class Main{
                 System.out.println("Charmander se ha cansado y ha sido derrotado");
             }
         }
-        if (vida3 == 105 ){
+        //
+        if (pokemon == 3 ){
             System.out.println("Has elegido Bulbasaur");
             System.out.println("Tu enemigo sera Squirtle");
             System.out.println("Estas en desventaja");
