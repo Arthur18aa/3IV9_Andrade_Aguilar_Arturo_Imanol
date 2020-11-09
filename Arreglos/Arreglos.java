@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main{
+public class Arreglos{
 
     Scanner entrada = new Scanner(System.in);
     
@@ -243,7 +243,7 @@ public class Main{
         }
 
         System.out.println("La calificacion mayor es: "+may);
-        System.out.println("La calificacion mayor es: "+men);
+        System.out.println("La calificacion menor es: "+men);
 
     }
 
