@@ -48,7 +48,7 @@ public class Arreglos{
 
       option = entrada.nextInt();
 
-      if (option<0||option>5){
+      if (option<1||option>5){
              System.out.println("Si ya sabes que no existe la ocpion 0, ni mayor a 5, ¿pa que la pones? :)))))");
         }
 
