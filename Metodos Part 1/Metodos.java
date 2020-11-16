@@ -34,7 +34,7 @@ public class Metodos{
                     Edad obj = new Edad();
                     obj.Edad();
 
-                    System.out.println("Si quieres repetir presiona la letra 'r', si deseas salir presiona la letra 's'");
+                    System.out.println("Si quieres repetir presiona la letra 'r', si deseas salir presiona la letra 'z'");
 
                     letra = entrada.next().charAt(0);
 
@@ -49,7 +49,7 @@ public class Metodos{
                     AreayPerimetro obj = new AreayPerimetro();
                     obj.Figuras();
 
-                    System.out.println("Si quieres repetir presiona la letra 'r', si deseas salir presiona la letra 's'");
+                    System.out.println("Si quieres repetir presiona la letra 'r', si deseas salir presiona la letra 'z'");
 
                     letra = entrada.next().charAt(0);
                     }while(letra == 'r');
@@ -62,7 +62,7 @@ public class Metodos{
                     Llamada obj = new Llamada();
                     obj.Celular();
 
-                    System.out.println("Si quieres repetir presiona la letra 'r', si deseas salir presiona la letra 's'");
+                    System.out.println("Si quieres repetir presiona la letra 'r', si deseas salir presiona la letra 'z'");
 
                     letra = entrada.next().charAt(0);
 
@@ -71,7 +71,7 @@ public class Metodos{
                 break;
                   }
 
-                  System.out.println("Si quieres repetir presiona la letra 'r', si deseas salir presiona la letra 's'");
+                  System.out.println("Si quieres repetir presiona la letra 'r', si deseas salir presiona la letra 'z'");
 
                   letra = entrada.next().charAt(0);
 
