@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Principal{
+class OP{
 
     public static void main(String[] args){
 
