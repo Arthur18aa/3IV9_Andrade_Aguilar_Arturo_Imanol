@@ -20,7 +20,7 @@ public class Principal{
         System.out.println("¿Quieres volver a jugar?:\n 2.No     1.Si");
 
         a=entrada.nextInt();
-        }while(a!=0);
+        }while(a!=1);
 
 
     }
