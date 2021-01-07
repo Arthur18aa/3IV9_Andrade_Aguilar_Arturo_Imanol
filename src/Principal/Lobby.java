@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ https://github.com/Arthur18aa/3IV9_Andrade_Aguilar_Arturo_Imanol.git
+https://github.com/CesaRLB17/3IV9-Lopez-Bastida-Cesar-Ricardo.git
  */
 package Principal;
 
@@ -64,6 +63,7 @@ public class Lobby extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 102, 255));
@@ -109,7 +109,7 @@ public class Lobby extends javax.swing.JFrame {
                 jNombre1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jNombre1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 180, 60));
+        jPanel1.add(jNombre1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, 180, 50));
 
         jEdad1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jEdad1.setText("Edad:");
@@ -140,7 +140,7 @@ public class Lobby extends javax.swing.JFrame {
 
         jPuntuacion1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jPuntuacion1.setText("0");
-        jPanel1.add(jPuntuacion1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 230, 80, 60));
+        jPanel1.add(jPuntuacion1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 230, 70, 60));
 
         jEliminar.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jEliminar.setText("ELIMINAR");
@@ -189,11 +189,11 @@ public class Lobby extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("Hola Gamer, en este juego eres el responsable de que");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 520, 50));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, -10, 520, 50));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setText(" las puntuaciones sean correctas, procura no hacer trampa.");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, -1, -1));
 
         jLabel4.setText("Las filas empiezan su cuenta desde el 0, la columna 2 es automática para ingresar de ");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 390, 500, 20));
@@ -204,6 +204,10 @@ public class Lobby extends javax.swing.JFrame {
         jLabel6.setText("columna. Disfruta el juego.");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 430, -1, -1));
 
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel7.setText("Juego Realizado por Arturo Imanol Andrade Aguilar y Cesar Ricardo López Bastida");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 590, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -212,7 +216,7 @@ public class Lobby extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 628, Short.MAX_VALUE)
         );
 
         pack();
@@ -305,6 +309,7 @@ private JFrame frame;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JButton jModificar;
     private javax.swing.JTextField jNombre1;
     private javax.swing.JTextField jNuevoDato;
