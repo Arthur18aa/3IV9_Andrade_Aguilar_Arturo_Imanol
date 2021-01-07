@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ https://github.com/Arthur18aa/3IV9_Andrade_Aguilar_Arturo_Imanol.git
+https://github.com/CesaRLB17/3IV9-Lopez-Bastida-Cesar-Ricardo.git
  */
 package LindoMinino;
 
